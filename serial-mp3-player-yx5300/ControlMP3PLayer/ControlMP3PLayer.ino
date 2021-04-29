@@ -1,15 +1,3 @@
-/***********************************************************/
-//Demo for the Serial MP3 Player by Catalex
-//Hardware: Serial MP3 Player *1
-//               Touch Sensor *1 http://www.dx.com/p/323904
-//               Rotary Angle Sensor *1 http://www.dx.com/p/323737
-//Board:  Arduino UNO R3
-//IDE:	  Arduino-1.0
-//Function:  In the process that the Rotation Angle Sensor is rotated from
-//               the 'Min' side to the 'Max' side, the volume is gradually greater.
-//               If you touch the Touch Sensor,it will play or pause.
-//Store: http://www.aliexpress.com/store/1199788
-//          http://www.dx.com/
 #include <SoftwareSerial.h>
 
 #define ARDUINO_RX 5//should connect to TX of the Serial MP3 Player module

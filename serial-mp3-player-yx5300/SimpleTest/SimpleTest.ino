@@ -1,11 +1,3 @@
-/***********************************************************/
-//Demo for the Serial MP3 Player by Catalex
-//Hardware: Serial MP3 Player *1
-//Board:  Arduino UNO R3
-//IDE:	  Arduino-1.0
-//Function:  To play the first song in the micro sd card.
-//Store: http://www.aliexpress.com/store/1199788
-//          http://www.dx.com/
 #include <SoftwareSerial.h>
 
 #define ARDUINO_RX 5//should connect to TX of the Serial MP3 Player module
