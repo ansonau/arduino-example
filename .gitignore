@@ -1,0 +1,8 @@
+# Ignore folders
+
+
+# Ignore file types
+*/.DS_Store 
+*.icloud
+
+.DS_Store
